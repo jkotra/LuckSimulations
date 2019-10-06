@@ -10,6 +10,8 @@ Julia snippets for rapid testing and experimentation with random-based games suc
 
 * [Dice -> Martingale](/Dice/martingale.jl)
 
+* [Monty Hall Simulation](/Monty Hall/montyhall.jl)
+
 
 # Usage
 
