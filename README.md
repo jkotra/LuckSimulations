@@ -1,10 +1,12 @@
 ![](luck.png)
 
-# LuckSimulations(s)
+# LuckSimulations
 
 Julia snippets for rapid testing and experimentation with random-based games such as dice, coin flip etc.
 
-# Available Simulation
+---
+
+## Available Simulation(s)
 
 * [Dice -> Martingale](/Dice/martingale.jl)
 
