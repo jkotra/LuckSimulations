@@ -1,6 +1,6 @@
 ![](luck.png)
 
-# LuckSimulations
+# LuckSimulations(s)
 
 Julia snippets for rapid testing and experimentation with random-based games such as dice, coin flip etc.
 
@@ -13,12 +13,15 @@ Julia snippets for rapid testing and experimentation with random-based games suc
 
 ## Install Deps.
 
-`using Pkg`
+```julia
+using Pkg
+Pkg.add("ArgParse")
+```
 
-`Pkg.add("ArgParse")`
+---
 
 
-`PROGRAM.jl --help` for example usage and arguments.
+then run `PROGRAM.jl --help` for example usage and arguments.
 
 ## Example
 
@@ -42,6 +45,10 @@ optional arguments:
 
 ---
 
+### Example:
+
 ```julia martingale.jl --bank 1 --stake 0.00000010 --rolls 5000000 --multiplier 2 --report-freq 10000```
 
-The above command will run martingale simulation with given arguments.
+# Misc.
+
+* [Martingale Custom Multiplier](/Dice/custom_fn_example.jl)
