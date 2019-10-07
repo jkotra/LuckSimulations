@@ -6,6 +6,7 @@
 
 Julia snippets for rapid testing and experimentation with random-based games such as dice, coin flip etc.
 </div>
+
 ---
 
 ## Available Simulation(s)
